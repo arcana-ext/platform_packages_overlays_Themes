@@ -12,53 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Fonts
-$(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
-$(call inherit-product-if-exists, external/google-fonts/source-sans-pro/fonts.mk)
-
-LOCAL_PATH := packages/overlays/Themes/fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-#Font Overalys
-PRODUCT_PACKAGES += \
-    FontArbutusSourceOverlay \
-    FontArvoLatoOverlay \
-    FontGoogleSansOverlay \
-    FontRubikRubikOverlay \
-    FontAdamCGinoraOverlay \
-    FontBigNoodleOverlay \
-    FontBikoHankenOverlay \
-    FontMittelschriftOverlay \
-    FontPisselOverlay \
-    FontReemKufiOverlay \
-    FontRobotoOverlay \
-    FontAclonicaSourceOverlay \
-    FontAmaranteSourceOverlay \
-    FontBariolSourceOverlay \
-    FontCagliostroSourceOverlay \
-    FontComfortaaSourceOverlay \
-    FontComicSansSourceOverlay \
-    FontCoolstorySourceOverlay \
-    FontLGSmartGothicSourceOverlay \
-    FontMontserratSourceOverlay \
-    FontOneplusSansOverlay \
-    FontOneplusSlateSourceOverlay \
-    FontRosemarySourceOverlay \
-    FontSamsungOneSourceOverlay \
-    FontSonySketchSourceOverlay \
-    FontHarmonySansOverlay \
-    FontGrandHotelSourceOverlay \
-    FontLemonMilkSourceOverlay \
-    FontLinotteSourceOverlay \
-    FontSanFranciscoDisplayProSourceOverlay \
-    FontSurferSourceOverlay
-
 # Icons
 PRODUCT_PACKAGES += \
     IconPackAcherusAndroidOverlay \
@@ -118,10 +71,6 @@ PRODUCT_PACKAGES += \
     XperiaWiFiOverlay \
     ZigZagSignalOverlay \
     ZigZagWiFiOverlay
-
-# Navbar
-PRODUCT_PACKAGES += \
-     NavigationBarModeGesturalOverlayFS
 
 # Rounded Styles
 #PRODUCT_PACKAGES += \
