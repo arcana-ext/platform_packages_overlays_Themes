@@ -93,7 +93,7 @@ PRODUCT_PACKAGES += \
 
 # Stub
 PRODUCT_PACKAGES += \
-    AEXThemesStub
+    ArcanaThemesStub
 
 # Plugins
 #-include packages/apps/PotatoPlugins/plugins.mk
