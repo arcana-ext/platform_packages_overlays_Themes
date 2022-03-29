@@ -27,14 +27,11 @@ PRODUCT_PACKAGES += \
     IconPackKaiAndroidOverlay \
     IconPackKaiSystemUIOverlay \
     IconPackPUIAndroidOverlay \
-    IconPackPUISettingsOverlay \
     IconPackPUISystemUIOverlay \
     IconPackFilledAndroidOverlay \
     IconPackFilledSystemUIOverlay \
     IconPackRoundedAndroidOverlay \
-    IconPackRoundedSystemUIOverlay \
-    IconPackOutlineAndroidOverlay \
-    IconPackOutlineSystemUIOverlay
+    IconPackRoundedSystemUIOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
